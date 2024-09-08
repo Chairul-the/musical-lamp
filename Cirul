@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You, My Love</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe6e6;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #ff9999;
+            padding: 50px;
+            font-size: 2em;
+            color: white;
+        }
+        .content {
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        .button {
+            background-color: #ff6666;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        My Love for You
+    </div>
+    <div class="content">
+        <p>Hello, my love. I've created this special place to express how much you mean to me.</p>
+        <p>Every moment with you is a treasure, and I can't wait for many more beautiful memories together.</p>
+        <button class="button" onclick="showSecret()">Click for a Secret</button>
+        <p id="secretMessage" style="display:none; margin-top: 20px;">You are my forever, and I love you more than words can say.</p>
+    </div>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/100" alt="Memory 1">
+        <img src="https://via.placeholder.com/100" alt="Memory 2">
+        <img src="https://via.placeholder.com/100" alt="Memory 3">
+    </div>
+
+    <script>
+        function showSecret() {
+            document.getElementById('secretMessage').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
